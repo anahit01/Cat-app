@@ -1,0 +1,25 @@
+.sidebar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.categories {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.category {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: red;
+  border-radius: 8px;
+  width: 100px;
+  height: 50px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
